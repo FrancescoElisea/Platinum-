@@ -1,0 +1,68 @@
+﻿/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9; /* Light background */
+    color: #333; /* Dark text */
+    margin: 0;
+    padding: 20px;
+}
+
+/* Headings */
+h1 {
+    color: #ffcc99; /* Peach blonde */
+    text-align: center;
+    font-size: 2.5em;
+}
+
+h2 {
+    color: #66b3b3; /* Light blue-green */
+    border-bottom: 2px solid #ff6699; /* Pink underline */
+    padding-bottom: 10px;
+}
+
+/* Links */
+a {
+    color: #ff6699; /* Pink */
+    text-decoration: none;
+}
+
+    a:hover {
+        text-decoration: underline;
+        color: #ffcc99; /* Peach blonde on hover */
+    }
+
+/* Lists */
+ul {
+    list-style-type: none; /* Remove bullets */
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+/* Definition List */
+dl {
+    margin: 20px 0;
+}
+
+dt {
+    font-weight: bold;
+    color: #66b3b3; /* Light blue-green */
+}
+
+dd {
+    margin-left: 20px;
+    color: #555; /* Darker gray for description */
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+}
